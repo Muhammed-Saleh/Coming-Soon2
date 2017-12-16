@@ -1,0 +1,189 @@
+/*
+
+@import
+$var
+@mixin & @include
+
+@extend
+
+grouping
+
+*/
+.main .details h2, .main .details h3, .main .notice input, .main .notice button, .social-media li a, .social-media .fa {
+  color: #E3A728; }
+
+.main .notice button, .social-media li a {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out; }
+
+/*
+     ***************** Main ****************
+*/
+.main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .main .details {
+    margin-top: 80px; }
+  .main .details h2 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+    margin-top: -15px; }
+  .main .details h3 {
+    margin-top: 54px;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive; }
+    .main .details h3 span {
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase; }
+  .main .notice {
+    text-align: center;
+    margin-top: 68px; }
+  .main .notice input {
+    padding: 0 10px;
+    width: 240px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    height: 36px;
+    line-height: 37px;
+    font-family: 'Elsie', cursive;
+    background-color: transparent;
+    border: 1px solid #E3A728; }
+  .main .notice button {
+    background-color: transparent;
+    border: 1px solid #E3A728;
+    padding: 4px;
+    width: 109px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Elsie', cursive;
+    margin-top: 1px; }
+    .main .notice button:hover {
+      background-color: #E3A728;
+      border: none;
+      color: #FFF; }
+  .main [class*=" devicon-"],
+  .main [class^=devicon-] {
+    font-size: 106px;
+    margin-top: 17px;
+    margin-left: 25px;
+    display: inline-block;
+    color: #E3A728; }
+
+/*
+     ***************** Background ****************
+*/
+.backGround {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("../images/shine-2.jpg");
+  background-size: cover; }
+  .backGround img {
+    width: 100%; }
+
+/*
+     ***************** Social-media ****************
+*/
+.social-media {
+  margin-top: 60px;
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-right: 30px; }
+  .social-media li {
+    float: left;
+    padding: 15px;
+    font-size: 28px; }
+  .social-media li a {
+    text-decoration: none; }
+  .social-media li .fa:hover {
+    transform: scale(1, 1.1);
+    color: #FADE5F; }
+
+/*
+     ***************** Responsive Properties ****************
+*/
+@media (min-width: 767px) {
+  body {
+    overflow: hidden; } }
+@media (max-width: 767px) {
+  .main .details {
+    margin-top: 100px; }
+  .main .details h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+    margin-top: -40px; }
+  .main .details h3 {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Elsie', cursive; }
+    .main .details h3 span {
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase; }
+  .main .notice {
+    text-align: center;
+    margin-top: 58px; }
+  .main .notice button {
+    background-color: transparent;
+    border: 1px solid #E3A728;
+    padding: 4px;
+    width: 109px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Elsie', cursive;
+    margin-top: 1px; }
+    .main .notice button:hover {
+      background-color: #E3A728;
+      border: none;
+      color: #FFF; }
+  .main [class*=" devicon-"],
+  .main [class^=devicon-] {
+    font-size: 100px;
+    margin-left: 40%;
+    display: inline-block; }
+
+  .social-media {
+    display: block;
+    list-style: none;
+    margin-top: 70px;
+    float: none;
+    text-align: center; }
+    .social-media li {
+      float: none;
+      display: inline-block; } }
+/**
+
+    display: inline-block;
+    list-style: none;
+    margin-top: 52px;
+    float: right;
+    text-align: center;
+
+**/
+
+/*# sourceMappingURL=style.css.map */
